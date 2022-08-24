@@ -2,13 +2,13 @@ import os
 import wikipedia
 import requests
 from keep_alive import keep_alive
-
+from config import *
 
 
 import interactions
 
-my_secret = os.environ['secret']
-bot = interactions.Client(my_secret)
+
+bot = interactions.Client(Token)
 
 
 @bot.event
