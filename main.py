@@ -17,12 +17,12 @@ async def on_ready():
 
 
 @bot.command(
-    name="hello-world",
+    name="Test",
     description="A simple example command",
     scope=919153167814520902,
 )
-async def hello_world(ctx: interactions.CommandContext):
-    await ctx.send("Hello World!")
+async def Test_command(ctx: interactions.CommandContext):
+    await ctx.send("Test")
 
 
 @bot.command(
